@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripNest - Explore The Unexplored</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <span class="top-phone"><i class="fas fa-phone"></i> +91 - 603 - 317 - 4441</span>
+      <span class="top-email">EMAIL: SUPPORT@TRIPNEST.IN</span>
+      <div class="top-right">
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#" class="my-account">MY ACCOUNT</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-content">
+      <a href="#" class="logo">
+        <span class="logo-main">tripnest</span><span class="logo-domain"></span>
+        <span class="tagline">EXPLORE THE UNEXPLORED</span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">STAY IN</a></li>
+          <li><a href="#">TRAVEL IN</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">MEDIA</a></li>
+          <li><a href="#">BLOGS</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <button class="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+        <button class="menu-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1920')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>GREAT JOURNEY BEGINS WITH A SMALL STEP</h1>
+          <p>Make Your Life Better and Bright! You must trip with Us!</p>
+          <a href="#" class="btn btn-outline">LEARN MORE</a>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>DISCOVER PLACES YOU’LL NEVER FORGET</h1>
+          <p>Curated stays and trips across the North-East and beyond.</p>
+          <a href="#" class="btn btn-outline">EXPLORE</a>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1920')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>COMFORTABLE STAYS, BEST PRICES</h1>
+          <p>Secure booking, hygienic rooms, and friendly hospitality.</p>
+          <a href="#" class="btn btn-outline">BOOK NOW</a>
+        </div>
+      </div>
+
+      <button class="hero-nav hero-prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+      <button class="hero-nav hero-next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+
+      <div class="hero-dots" aria-label="Hero slider pagination">
+        <button class="hero-dot active" type="button" aria-label="Go to slide 1"></button>
+        <button class="hero-dot" type="button" aria-label="Go to slide 2"></button>
+        <button class="hero-dot" type="button" aria-label="Go to slide 3"></button>
+      </div>
+    </div>
+
+    <!-- Search Widget -->
+    <div class="search-widget">
+      <div class="search-tabs">
+        <span class="search-tab active">HOTELS</span>
+        <span class="search-tab">FLIGHTS</span>
+        <span class="search-tab">CARS</span>
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="HOTEL NAME" class="search-input">
+        <div class="search-row">
+          <input type="text" placeholder="CHECK IN (MM/DD/YY)" class="search-input">
+          <input type="text" placeholder="CHECK OUT (MM/DD/YY)" class="search-input">
+        </div>
+        <div class="search-row">
+          <select class="search-select">
+            <option>5 Stars</option>
+            <option>4 Stars</option>
+            <option>3 Stars</option>
+          </select>
+          <input type="text" placeholder="PRICE" class="search-input" value="1500">
+        </div>
+        <select class="search-select search-full">
+          <option>Resorts</option>
+          <option>Hotels</option>
+          <option>Guest Houses</option>
+        </select>
+        <button type="submit" class="btn btn-search">SEARCH</button>
+        <a href="#" class="advanced-link">ADVANCED SEARCH OPTIONS</a>
+      </form>
+    </div>
+  </section>
+
+  <!-- Featured Promos -->
+  <section class="featured-promos">
+    <div class="promo-card">
+      <div class="promo-img" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600')"></div>
+      <div class="promo-content">
+        <span class="promo-badge">EXCLUSIVE 20%</span>
+        <span class="promo-location">LOCATION: RI-BHOI</span>
+        <span class="promo-price">₹ 7280 <small>AVG/NIGHT</small></span>
+      </div>
+    </div>
+    <div class="promo-card">
+      <div class="promo-img" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600')"></div>
+      <div class="promo-content">
+        <span class="promo-badge">EXCLUSIVE 10%</span>
+        <span class="promo-location">LOCATION: CHERRAPUNJI (SOHRA)</span>
+        <span class="promo-price">₹ 3000 <small>AVG/NIGHT</small></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hottest Offers -->
+  <section class="section hottest-offers">
+    <h2 class="section-title">WE ARE OFFERING THE HOTTEST OFFERS</h2>
+    <p class="section-subtitle">Your journey our hospitality</p>
+    <div class="offers-grid">
+      <div class="offer-card">
+        <div class="offer-img" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400')">
+          <a href="#" class="view-details">VIEW DETAILS</a>
+        </div>
+        <div class="offer-info">
+          <h3>SOHRA PLAZA</h3>
+          <div class="offer-meta">
+            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+            <span class="price">₹ 3000</span>
+          </div>
+          <span class="price-label">PRICE</span>
+        </div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-img" style="background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400')">
+          <a href="#" class="view-details">VIEW DETAILS</a>
+        </div>
+        <div class="offer-info">
+          <h3>LIVE INN GUEST HOUSE</h3>
+          <div class="offer-meta">
+            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+            <span class="price">₹ 1800</span>
+          </div>
+          <span class="price-label">PRICE</span>
+        </div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-img" style="background-image: url('https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400')">
+          <a href="#" class="view-details">VIEW DETAILS</a>
+        </div>
+        <div class="offer-info">
+          <h3>PUJA GUEST HOUSE</h3>
+          <div class="offer-meta">
+            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+            <span class="price">₹ 2240</span>
+          </div>
+          <span class="price-label">PRICE</span>
+        </div>
+      </div>
+      <div class="offer-card">
+        <div class="offer-img" style="background-image: url('https://images.unsplash.com/photo-1578681994506-b8f463449011?w=400')">
+          <a href="#" class="view-details">VIEW DETAILS</a>
+        </div>
+        <div class="offer-info">
+          <h3>LA NICHOLAS RESORT</h3>
+          <div class="offer-meta">
+            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+            <span class="price">₹ 7280</span>
+          </div>
+          <span class="price-label">PRICE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hotel Banners -->
+  <section class="hotel-banners">
+    <div class="banner-card">
+      <div class="banner-img" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800')"></div>
+      <div class="banner-badge">
+        <h4>HOTEL KING</h4>
+        <ul>
+          <li>A/c and Non-A/c</li>
+          <li>Rooms & Cottages</li>
+          <li>Banquet Hall Full A/c</li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner-card">
+      <div class="banner-img" style="background-image: url('https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800')"></div>
+      <div class="banner-badge">
+        <h4>HOTEL KING</h4>
+        <ul>
+          <li>A/c and Non-A/c</li>
+          <li>Rooms & Cottages</li>
+          <li>Banquet Hall Full A/c</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Destinations -->
+  <section class="section destinations">
+    <h2 class="section-title">POPULAR DESTINATIONS</h2>
+    <p class="section-subtitle">A touch of Nature to the land of culture</p>
+    <div class="destinations-grid">
+      <div class="dest-card">
+        <div class="dest-img" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600')"></div>
+        <div class="dest-content">
+          <h3>STAY IN SHILLONG</h3>
+          <p>YOUR STAY IN SHILLONG IS JUST AN IDEAL MATCH FOR YOUR DESTINATION</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+      <div class="dest-card">
+        <div class="dest-img" style="background-image: url('https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600')"></div>
+        <a href="#" class="view-details dest-overlay">VIEW DETAILS</a>
+        <div class="dest-content">
+          <h3>STAY IN ARUNACHAL</h3>
+          <p>THE LAND OF DAWN-LIT MOUNTAINS, ARUNACHAL PRADESH IS THE LARGEST STATE IN NORTH-EAST</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+      <div class="dest-card">
+        <div class="dest-img" style="background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600')"></div>
+        <div class="dest-content">
+          <h3>STAY IN KAZIRANGA</h3>
+          <p>WIDELY KNOWN FOR ONE HORN RHINO AND A LARGE NUMBER OF BIRD SPECIES.</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stay In Section (Majuli, Sikkim, Guwahati) -->
+  <section class="section stay-section">
+    <div class="stay-grid">
+      <div class="stay-card">
+        <div class="stay-img" style="background-image: url('https://images.unsplash.com/photo-1548013146-72479768bada?w=600')"></div>
+        <div class="stay-content">
+          <h3>STAY IN MAJULI</h3>
+          <p>ASSAM IS A STATE IN NORTH-EASTERN INDIA KNOWN FOR ITS FLORA</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+      <div class="stay-card">
+        <div class="stay-img" style="background-image: url('https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600')"></div>
+        <a href="#" class="view-details stay-overlay">VIEW DETAILS</a>
+        <div class="stay-content">
+          <h3>STAY IN SIKKIM</h3>
+          <p>A MUST-SEE DESTINATION OF INDIA, SIKKIM IS BLESSED WITH A MARVELOUS LANDSCAPE</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+      <div class="stay-card">
+        <div class="stay-img" style="background-image: url('https://images.unsplash.com/photo-1548013146-72479768bada?w=600')"></div>
+        <div class="stay-content">
+          <h3>STAY IN GUWAHATI</h3>
+          <p>GUWAHATI IS A MIST OF WONDER, RICH IN HISTORY AND CULTURE SERVING AS AN IDEAL PLACE</p>
+          <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reasons to Book With Us -->
+  <section class="section reasons-section">
+    <div class="reasons-wrapper">
+      <div class="reasons-image">
+        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600" alt="Travel">
+      </div>
+      <div class="reasons-content">
+        <h2 class="section-title">REASONS TO BOOK WITH US</h2>
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <div class="reason-icon"><i class="fas fa-lightbulb"></i></div>
+            <h4>EASY AND COMFORT STAY</h4>
+            <p>Rooms equipped with comfort, with all the essentials that you seek. Your staying filled with our hospitality.</p>
+          </div>
+          <div class="reason-card">
+            <div class="reason-icon"><i class="fas fa-puzzle-piece"></i></div>
+            <h4>SECURITY</h4>
+            <p>Safe sound and secure with an assurity that our guest gets the best of memories they look at when they are a past of our guest.</p>
+          </div>
+          <div class="reason-card">
+            <div class="reason-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h4>ECONOMIC</h4>
+            <p>We take our guest as our friend providing the best economic rooms for you getting the best of your journey.</p>
+          </div>
+          <div class="reason-card">
+            <div class="reason-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4>HYGIENIC</h4>
+            <p>Health is wealth and so is our guest house. Hygienic and comfortable stay is our policy, and we stick to our basics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h4>GET IN TOUCH</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Address: ghaziabad , Uttar Pradesh</li>
+          <li><i class="fas fa-phone"></i> Telephones: +91 63867-8740</li>
+          <li><i class="fas fa-envelope"></i> E-mail: support@tripnest.in</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>FEATURED DEALS</h4>
+        <div class="deal-item">
+          <div class="deal-img" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=150')"></div>
+          <div class="deal-info">
+            <span>EXCLUSIVE 20%</span>
+            <span>LOCATION: CHERAPUNJEE</span>
+            <span class="deal-price">₹ 999</span>
+          </div>
+        </div>
+        <div class="deal-item">
+          <div class="deal-img" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=150')"></div>
+          <div class="deal-info">
+            <span>EXCLUSIVE 15%</span>
+            <span>LOCATION: SHILLONG</span>
+            <span class="deal-price">₹ 1500</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>TRAVEL IN</h4>
+        <ul class="travel-links">
+          <li><i class="fas fa-circle"></i> Shillong</li>
+          <li><i class="fas fa-circle"></i> Guwahati</li>
+          <li><i class="fas fa-circle"></i> Kaziranga</li>
+          <li><i class="fas fa-circle"></i> Majuli</li>
+          <li><i class="fas fa-circle"></i> Arunachal</li>
+          <li><i class="fas fa-circle"></i> Sikkim</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>NEWSLETTER SIGN UP</h4>
+        <form class="newsletter-form">
+          <div class="newsletter-input-wrap">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="your email" required>
+          </div>
+          <button type="submit" class="btn btn-newsletter">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="copyright">© COPYRIGHT 2021-22 BY TRIPNEST.IN. ALL RIGHTS RESERVED.</span>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="tripnest.js"></script>
+</body>
+</html>
